@@ -3,7 +3,6 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-import BarChartIcon from '@material-ui/icons/BarChart';
 
 // @material-ui/icons
 
@@ -15,7 +14,7 @@ import Card from "components/Card/Card.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import { CircularProgress, Slider } from "@material-ui/core";
+import { Slider } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
 
@@ -79,7 +78,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-              <Slider
+                <Slider
                   defaultValue={20}
                   getAriaValueText={valuetext}
                   aria-labelledby="discrete-slider"
@@ -100,7 +99,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-              <Slider
+                <Slider
                   defaultValue={12}
                   getAriaValueText={valuetext}
                   aria-labelledby="discrete-slider"
@@ -121,7 +120,7 @@ export default function TeamSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-              <Slider
+                <Slider
                   defaultValue={60}
                   getAriaValueText={valuetext}
                   aria-labelledby="discrete-slider"

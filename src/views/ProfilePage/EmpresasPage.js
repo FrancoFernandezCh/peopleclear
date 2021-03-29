@@ -2,19 +2,21 @@ import React from "react";
 import classNames from "classnames";
 
 import { makeStyles } from "@material-ui/core/styles";
-import BusinessIcon from '@material-ui/icons/Business';
-import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
 
 
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
+
+
+import Servicios from '../ProfilePage/Sections/Servicios'
+import ServiciosEjecutivos from '../ProfilePage/Sections/ServiciosEjecutivos'
+import WorkSection from "views/LandingPage/Sections/WorkSection";
 
 
 
@@ -52,7 +54,7 @@ export default function ProfilePage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Soluciones para Empresas y Emprendedores</h1>
               <h4>
-              Solucionamos los desafíos de dotación y talento a través de servicios de búsqueda, outsourcing, servicios transitorios y evaluación de candidatos.
+                Solucionamos los desafíos de dotación y talento a través de servicios de búsqueda, outsourcing, servicios transitorios y evaluación de candidatos.
               </h4>
             </GridItem>
           </GridContainer>
@@ -60,7 +62,9 @@ export default function ProfilePage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          hola
+          <Servicios />
+          <ServiciosEjecutivos />
+          <WorkSection />
         </div>
       </div>
       <Footer />
