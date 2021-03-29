@@ -3,9 +3,8 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import {AvTimer, AspectRatio, PersonAdd, EmojiTransportation, Storage} from "@material-ui/icons";
+import PanToolIcon from '@material-ui/icons/PanTool';
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -70,6 +69,15 @@ export default function ProductSection() {
               title="Basados en datos"
               description="Proponemos a nuestros clientes el uso de datos y evidencia para la toma de decisiones, evitando de esta forma perder oportunidades por prejuicios o políticas que no están alineadas con la optimización del Talento."
               icon={Storage}
+              iconColor="danger"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Transparentes y responsables"
+              description="La sociedad hoy exige niveles de transparencia extremadamente altos, ser muy cuidadosos con la privacidad de la información y basarse en información obejtiva para tomar decisiones de contratación, en Clear People estamos 100% preparados para eso."
+              icon={PanToolIcon}
               iconColor="danger"
               vertical
             />

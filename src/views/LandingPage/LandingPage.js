@@ -48,7 +48,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>El Mundo cambió.</h1>
+              <h1 className={classes.title}>El Mundo laboral cambió.</h1>
               <h4>
                 El mundo laboral cambió aceleradamente en los últimos años y lo seguirá haciendo en el futuro, los desafíos no son los mismos, la sociedad nos pide pensar de forma distinta y nos pone nuevos desafíos.
               </h4>

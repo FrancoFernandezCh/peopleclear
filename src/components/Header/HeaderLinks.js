@@ -36,21 +36,15 @@ export default function HeaderLinks(props) {
             <a href="/" className={classes.dropdownLink}>
               Inicio
             </a>,
-            <a href="#nosotros" className={classes.dropdownLink}>
-              Nosotros
-            </a>,
             <a href="/personas" className={classes.dropdownLink}>
               Personas
             </a>,
             <a href="/empresas" className={classes.dropdownLink}>
               Empresas
             </a>,
-            <a href="#nosotros" className={classes.dropdownLink}>
+            <a href="https://puentedigital.hiringroom.com/jobs" target="_blank" className={classes.dropdownLink}>
               Empleo
             </a>,
-            <a href="#nosotros" className={classes.dropdownLink}>
-              Blog
-            </a>
           ]}
         />
       </ListItem>
@@ -76,7 +70,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim?ref=creativetim"
+            href="https://www.linkedin.com/company/clearpeople/?viewAsMember=true"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -94,7 +88,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://www.facebook.com/Clear-People-102016388632783"
             target="_blank"
             className={classes.navLink}
           >
@@ -111,7 +105,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://www.instagram.com/?hl=es"
             target="_blank"
             className={classes.navLink}
           >

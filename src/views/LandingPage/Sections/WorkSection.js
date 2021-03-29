@@ -1,6 +1,7 @@
 import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import HubspotForm from 'react-hubspot-form'
 
 // @material-ui/icons
 
@@ -11,6 +12,7 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
+import MediaCard from "components/InfoArea/CardServices";
 
 const useStyles = makeStyles(styles);
 
@@ -22,40 +24,16 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Contacto</h2>
           <form>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Tu nombre"
-                  id="name"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
+            <GridContainer justify="center">
+              <GridItem  xs={12} sm={12} md={6}>
+                <HubspotForm
+                  portalId='5925496'
+                  formId='b9a198e5-6677-4c56-81ce-d490a49d338c'
+                  onSubmit={() => console.log('Submit!')}
+                  onReady={(form) => console.log('Form ready!')}
+                  loading={<div>Loading...</div>}
                 />
-              </GridItem>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Tu email"
-                  id="email"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <CustomInput
-                labelText="Comentarios"
-                id="message"
-                formControlProps={{
-                  fullWidth: true,
-                  className: classes.textArea
-                }}
-                inputProps={{
-                  multiline: true,
-                  rows: 5
-                }}
-              />
-              <GridItem xs={12} sm={12} md={4}>
-                <Button color="primary">Enviar Mensaje</Button>
-              </GridItem>
+                </GridItem>
             </GridContainer>
           </form>
         </GridItem>

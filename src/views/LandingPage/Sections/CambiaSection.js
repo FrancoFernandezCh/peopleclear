@@ -12,7 +12,7 @@ import GridItem from "components/Grid/GridItem.js";
 import LocalFloristIcon from '@material-ui/icons/LocalFlorist';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import AssessmentIcon from '@material-ui/icons/Assessment';
-import PanToolIcon from '@material-ui/icons/PanTool';
+
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
@@ -129,35 +129,7 @@ export default function TeamSection() {
                                             </GridItem>
                                         </GridContainer>
                                     )
-                                },
-                                {
-                                    tabButton: "Transparentes y responsables:",
-                                    tabIcon: PanToolIcon,
-                                    tabContent: (
-                                        <GridContainer justify="center">
-                                            <GridItem xs={12} sm={12} md={4}>
-                                                <img
-                                                    alt="..."
-                                                    src='https://images.pexels.com/photos/6424613/pexels-photo-6424613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-                                                    className={navImageClasses}
-                                                />
-                                            </GridItem>
-                                            <GridItem xs={12} sm={12} md={4}>
-                                                <img
-                                                    alt="..."
-                                                    src='https://images.pexels.com/photos/3837494/pexels-photo-3837494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-                                                    className={navImageClasses}
-                                                />
-                                            </GridItem>
-                                            <GridItem xs={12} sm={12} md={4}>
-                                                <p className={classes.title}>
-                                                La sociedad hoy exige niveles de transparencia extremadamente altos, ser muy cuidadosos con la privacidad de la información y basarse en información objetiva para tomar decisiones de contratación, en Clear People estamos 100% preparados para eso.
-                                                </p>
-
-                                            </GridItem>
-                                        </GridContainer>
-                                    )
-                                },
+                                }
                             ]}
                         />
                     </GridItem>

@@ -15,6 +15,9 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
+import WorkSection from "views/LandingPage/Sections/WorkSection";
+import Operacionales from "./Sections/Operacionales";
+import Ejecutivos from "./Sections/Ejecutivos";
 
 
 
@@ -46,7 +49,7 @@ export default function ProfilePage(props) {
         }}
         {...rest}
       />
-       <Parallax filter image={require("assets/img/personas.jpg")}>
+      <Parallax filter image={require("assets/img/personas.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -57,7 +60,9 @@ export default function ProfilePage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          hola
+          <Operacionales />
+          <Ejecutivos />
+          <WorkSection />
         </div>
       </div>
       <Footer />

@@ -41,7 +41,7 @@ export default function MediaCard({ img, title, desc }) {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="small" color="primary">
+                <Button  href="#form" size="small" color="primary">
                     Saber más
                 </Button>
             </CardActions>

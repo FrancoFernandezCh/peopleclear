@@ -39,7 +39,7 @@ export default function Footer(props) {
                 classes={{ tooltip: classes.tooltip }}
               >
                 <Button
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
+                  href="https://www.linkedin.com/company/clearpeople/?viewAsMember=true"
                   target="_blank"
                   color="transparent"
                   className={classes.navLink}
@@ -57,7 +57,7 @@ export default function Footer(props) {
               >
                 <Button
                   color="transparent"
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                  href="https://www.facebook.com/Clear-People-102016388632783"
                   target="_blank"
                   className={classes.navLink}
                 >
@@ -66,14 +66,23 @@ export default function Footer(props) {
               </Tooltip>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
+              <Tooltip
+                id="instagram-facebook"
+                title="Síguenos en Facebook"
+                placement={window.innerWidth > 959 ? "top" : "left"}
+                classes={{ tooltip: classes.tooltip }}
               >
-                Blog
-              </a>
+                <Button
+                  color="transparent"
+                  href="https://www.instagram.com/?hl=es"
+                  target="_blank"
+                  className={classes.navLink}
+                >
+                  <i className={classes.socialIcons + " fab fa-instagram"} />
+                </Button>
+              </Tooltip>
             </ListItem>
+            
           </List>
         </div>
       </div>

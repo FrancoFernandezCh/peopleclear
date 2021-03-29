@@ -31,7 +31,7 @@ export default function ProductSection() {
                         <MediaCard
                             img='https://image.freepik.com/foto-gratis/empresarios-mujeres-negocios-milenio-asia-encuentran-ideas-lluvia-ideas-sobre-nuevos-colegas-proyecto-papeleo-que-trabajan-juntos-planificar-estrategia-exito-disfrutan-trabajo-equipo-pequena-moderna-oficina-nocturna_7861-2386.jpg'
                             title='Research'
-                            desc='Realizamos procesos de Atracción de Talento para encontrar las personas que tu organización necesita para hacer la diferencia en tu estrategia empresarial'
+                            desc='Realizamos procesos de Atracción de Talento para encontrar a las personas que tu organización necesita para hacer la diferencia en tu estrategia.'
                         />
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
