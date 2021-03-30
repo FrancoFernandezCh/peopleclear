@@ -8,11 +8,9 @@ import HubspotForm from 'react-hubspot-form'
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import CustomInput from "components/CustomInput/CustomInput.js";
-import Button from "components/CustomButtons/Button.js";
+
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
-import MediaCard from "components/InfoArea/CardServices";
 
 const useStyles = makeStyles(styles);
 
@@ -20,12 +18,12 @@ export default function WorkSection() {
   const classes = useStyles();
   return (
     <div id='form' className={classes.section}>
-      <GridContainer justify="center">
-        <GridItem cs={12} sm={12} md={8}>
+      <GridContainer  justify="center">
+        <GridItem  cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Contacto</h2>
           <form>
-            <GridContainer justify="center">
-              <GridItem  xs={12} sm={12} md={6}>
+            <GridContainer  justify="center">
+              <GridItem  className={classes.flex} xs={12} sm={12} md={6}>
                 <HubspotForm
                   portalId='5925496'
                   formId='b9a198e5-6677-4c56-81ce-d490a49d338c'

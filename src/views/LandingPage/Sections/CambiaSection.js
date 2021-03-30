@@ -21,10 +21,6 @@ import styles from "assets/jss/material-kit-react/views/profilePage.js";
 import NavPills from "components/NavPills/NavPills";
 
 
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-
-
 const useStyles = makeStyles(styles);
 
 export default function TeamSection() {
@@ -53,14 +49,14 @@ export default function TeamSection() {
                                             <GridItem  xs={12} sm={12} md={4}>
                                                 <img
                                                     alt="..."
-                                                    src='https://images.pexels.com/photos/4207905/pexels-photo-4207905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                                                    src='https://firmasclear.s3-sa-east-1.amazonaws.com/imgweb/siembra1.jpg'
                                                     className={navImageClasses}
                                                 />
                                             </GridItem>
                                             <GridItem xs={12} sm={12} md={4}>
                                                 <img
                                                     alt="..."
-                                                    src='https://images.pexels.com/photos/4503269/pexels-photo-4503269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                                                    src='https://firmasclear.s3-sa-east-1.amazonaws.com/imgweb/Seimbra2.jpg'
                                                     className={navImageClasses}
                                                 />
                                             </GridItem>
@@ -82,14 +78,14 @@ export default function TeamSection() {
                                             <GridItem xs={12} sm={12} md={4}>
                                                 <img
                                                     alt="..."
-                                                    src='https://images.pexels.com/photos/7063769/pexels-photo-7063769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                                                    src='https://firmasclear.s3-sa-east-1.amazonaws.com/imgweb/Negocio1.jpg'
                                                     className={navImageClasses}
                                                 />
                                             </GridItem>
                                             <GridItem xs={12} sm={12} md={4}>
                                                 <img
                                                     alt="..."
-                                                    src='https://images.pexels.com/photos/5750131/pexels-photo-5750131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                                                    src='https://firmasclear.s3-sa-east-1.amazonaws.com/imgweb/Negocio2.jpg'
                                                     className={navImageClasses}
                                                 />
                                             </GridItem>
@@ -110,14 +106,14 @@ export default function TeamSection() {
                                             <GridItem xs={12} sm={12} md={4}>
                                                 <img
                                                     alt="..."
-                                                    src='https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                                                    src='https://firmasclear.s3-sa-east-1.amazonaws.com/imgweb/justicia1.jpg'
                                                     className={navImageClasses}
                                                 />
                                             </GridItem>
                                             <GridItem xs={12} sm={12} md={4}>
                                                 <img
                                                     alt="..."
-                                                    src='https://images.pexels.com/photos/1998256/pexels-photo-1998256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                                                    src='https://firmasclear.s3-sa-east-1.amazonaws.com/imgweb/Justicia2.jpg'
                                                     className={navImageClasses}
                                                 />
                                             </GridItem>

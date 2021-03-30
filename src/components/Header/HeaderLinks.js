@@ -105,7 +105,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/?hl=es"
+            href="https://www.instagram.com/clear.people/"
             target="_blank"
             className={classes.navLink}
           >

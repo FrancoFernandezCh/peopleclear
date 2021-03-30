@@ -76,7 +76,7 @@ export default function Ejecutivos() {
           <GridItem xs={12} sm={12} md={4}>
           <Button
                 href='https://puentedigital.hiringroom.com/jobs'
-                color="danger"
+                color="primary"
                 target='_blank'
                 size="lg"
                 rel="noopener noreferrer"

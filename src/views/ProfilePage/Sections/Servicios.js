@@ -27,21 +27,21 @@ export default function ProductSection() {
                 <GridContainer>
                     <GridItem xs={12} sm={12} md={4}>
                         <MediaCard
-                            img='https://image.freepik.com/foto-gratis/empresarios-mujeres-negocios-milenio-asia-encuentran-ideas-lluvia-ideas-sobre-nuevos-colegas-proyecto-papeleo-que-trabajan-juntos-planificar-estrategia-exito-disfrutan-trabajo-equipo-pequena-moderna-oficina-nocturna_7861-2386.jpg'
+                            img='https://firmasclear.s3-sa-east-1.amazonaws.com/imgweb/Servicio11.jpg'
                             title='Búsquedas de Staff Operativo'
                             desc='Encontramos la cantidad y calidad que tus procesos operacionales requieren en una multiplicidad de industrias en tiempos que no podrás creer, con la calificación necesaria y con foco en la ubicación geográfica para tener menores tasas de ausentismo.'
                         />
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
                         <MediaCard
-                            img='https://image.freepik.com/foto-gratis/empresarios-mujeres-negocios-milenio-asia-encuentran-ideas-lluvia-ideas-sobre-nuevos-colegas-proyecto-papeleo-que-trabajan-juntos-planificar-estrategia-exito-disfrutan-trabajo-equipo-pequena-moderna-oficina-nocturna_7861-2386.jpg'
+                            img='https://firmasclear.s3-sa-east-1.amazonaws.com/imgweb/Servicio+12.jpg'
                             title='Servicios transitorios'
                             desc='Dotamos a tu organización de personas para que tu operación no se detenga, con la velocidad y precisión que nos caracteriza, y con toda la simplicidad de requerir el talento a un solo clic de distancia.'
                         />
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
                         <MediaCard
-                            img='https://image.freepik.com/foto-gratis/empresarios-mujeres-negocios-milenio-asia-encuentran-ideas-lluvia-ideas-sobre-nuevos-colegas-proyecto-papeleo-que-trabajan-juntos-planificar-estrategia-exito-disfrutan-trabajo-equipo-pequena-moderna-oficina-nocturna_7861-2386.jpg'
+                            img='https://firmasclear.s3-sa-east-1.amazonaws.com/imgweb/gerente.jpg'
                             title='Outsourcing/BPO'
                             desc='Externalizamos funciones o procesos completos de tu organización de forma que puedas focalizarte en tu negocio.'
                         />

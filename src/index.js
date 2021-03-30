@@ -19,7 +19,6 @@ ReactDOM.render(
       <Route path="/" exact component={LandingPage} />
       <Route path="/personas" component={PeoplePage} />
       <Route path="/empresas" component={EmpresasPage} />
-      
     </Switch>
   </Router>,
   document.getElementById("root")

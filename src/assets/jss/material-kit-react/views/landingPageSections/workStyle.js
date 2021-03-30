@@ -22,6 +22,11 @@ const workStyle = {
   textArea: {
     marginRight: "15px",
     marginLeft: "15px"
+  },
+  flex:{
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent:'center'
   }
 };
 
