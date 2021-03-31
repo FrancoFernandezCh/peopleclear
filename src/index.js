@@ -17,8 +17,8 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/" exact component={LandingPage} />
-      <Route path="/personas" component={PeoplePage} />
-      <Route path="/empresas" component={EmpresasPage} />
+      <Route path="/personas" exact component={PeoplePage} />
+      <Route path="/empresas" exact component={EmpresasPage} />
     </Switch>
   </Router>,
   document.getElementById("root")
