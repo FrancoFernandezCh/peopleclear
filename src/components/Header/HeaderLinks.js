@@ -42,7 +42,7 @@ export default function HeaderLinks(props) {
             <a href="/empresas" className={classes.dropdownLink}>
               Empresas
             </a>,
-            <a href="https://puentedigital.hiringroom.com/jobs" target="_blank" className={classes.dropdownLink}>
+            <a href="https://cleargroup.hiringroom.com/jobs/microsite/clearpeople" target="_blank" className={classes.dropdownLink}>
               Empleo
             </a>,
           ]}
